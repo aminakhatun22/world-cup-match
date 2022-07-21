@@ -1,0 +1,169 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+/* 1st section style */
+
+
+.container {
+    display: flex;
+    margin-top: 41px;
+    margin-bottom: 100px;
+    margin-left: 140px;
+    margin-right: 140px;
+
+    height: 600px;
+
+    background: #161616;
+    color: white;
+    border-radius: 30px;
+
+
+}
+
+.half-width {
+    margin-top: 50px;
+    margin-left: 50px;
+
+
+    padding: 30px;
+    font-size: 20px;
+
+
+
+}
+
+#h1-tag {
+    font-size: 50px;
+}
+
+.half-width img {
+    height: 520px;
+
+}
+
+
+
+
+
+.fa-greater-than {
+    margin-left: 20px;
+    color: white;
+}
+
+.watch-live-btn {
+    padding: 10px;
+
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+
+
+}
+
+/* second-section-style */
+.half-width-two-first-div {
+    background-color: black;
+    border-radius: 10px;
+
+    margin-top: 10px;
+    width: 252px;
+    height: 250px;
+    left: 170px;
+    top: 856px;
+    margin-left: 140px;
+
+}
+
+.button {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+
+
+
+}
+
+#upcoming-match {
+
+    width: 220px;
+    height: 54px;
+
+    top: 856px;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: red;
+
+}
+
+#all-group {
+    width: 220px;
+    height: 54px;
+
+    top: 950px;
+    margin-left: 15px;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+#blog {
+    width: 220px;
+    height: 54px;
+
+    top: 996px;
+    margin-left: 15px;
+
+    border-radius: 10px;
+    font-size: 20px;
+
+
+
+
+    color: black;
+}
+
+.half-width-two-second-div {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.one-part {
+    display: flex;
+}
+
+
+/* footer */
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 100px;
+    margin-top: 100px;
+
+}
+
+footer hr {
+    border: 1px solid red;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.li-items {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-left: 70px;
+    margin-right: 70px;
+}
